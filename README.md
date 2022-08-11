@@ -1,1 +1,3 @@
-# Max-Power-React template
+# React-search-emoji
+
+A simple emoji search tool made with ReactJS.

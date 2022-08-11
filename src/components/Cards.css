@@ -1,0 +1,24 @@
+li {
+  list-style-type: none;
+}
+
+.Cards {
+  width: 80%;
+  margin: 1rem auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  font-size: 6rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 5px #ddd, 0 0 2px #aaa;
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}

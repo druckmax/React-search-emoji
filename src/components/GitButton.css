@@ -1,0 +1,42 @@
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.button {
+  width: fit-content;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.gitBtn__Left {
+  display: inline-block;
+  background-color: #efefef;
+  padding: .5rem 1rem;
+  border-right: 1px solid #dfdfdf;
+}
+
+.gitBtn__Right {
+  display: inline-block;
+  background-color: #fff;
+  padding: .5rem 1rem;
+}
+
+.btnText {
+  padding: 0 .5rem;
+}
+
+.gitBtn__Left:hover {
+  background-color: #ddd;
+}
+.gitBtn__Right:hover .btnText {
+  color: #777;
+}
+.icon {
+  color: #555;
+}
